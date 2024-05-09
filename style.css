@@ -1,0 +1,29 @@
+body {
+    font-family: "Londrina Solid", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation: changeBackground 10s infinite; /* Change the duration as needed */
+}
+
+.container {
+    text-align: center;
+}
+
+#message {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    margin-top: 20px;
+}
+
+@keyframes changeBackground {
+    0% { background-color: #ff7eb9; } /* Starting color */
+    25% { background-color: #ffca7e; } /* Midway color */
+    50% { background-color: #7effd4; } /* Midway color */
+    75% { background-color: #b97eff; } /* Midway color */
+    100% { background-color: #ff7eb9; } /* Ending color */
+}
